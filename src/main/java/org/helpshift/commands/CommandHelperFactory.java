@@ -7,10 +7,13 @@ import org.helpshift.services.TrieService;
 
 /**
  * CommandHelperFactory helps us to decide what is the
- * input command and helps to get its related methods.
+ * input command and get its related methods.
  *
  * We are taking help of Singleton as well as Factory Design pattern here.
  *
+ * @author Karansing Rajput
+ * @version 1.0
+ * @since 2021-04-21
  */
 public class CommandHelperFactory {
 

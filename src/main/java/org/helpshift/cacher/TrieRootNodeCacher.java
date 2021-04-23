@@ -8,6 +8,10 @@ import org.helpshift.entities.TrieNode;
  *
  * We are taking help of Singleton Design pattern here.
  *
+ * @author Karansing Rajput
+ * @version 1.0
+ * @since 2021-04-21
+ *
  */
 public class TrieRootNodeCacher {
 

@@ -12,7 +12,7 @@ import org.helpshift.services.TrieService;
 import org.junit.Test;
 
 /**
- * Unit test for Trie App.
+ * Unit tests for Trie App.
  */
 public class AppTest 
 {
@@ -40,9 +40,31 @@ public class AppTest
 
         printingService.printAllNodes(TrieRootNodeCacher.getInstance().getRootNode());
         System.out.println("------------------------");
+        //Few more nodes from
         assertTrue( TriePrintingService.counter == 11);
     }
 
+    /**
+     * This test case is making sure that when we try to put entry (<key, value>)
+     * for an existing key then the value for that key gets replaced.
+     *
+     */
+    @Test
+    public void insertDuplicateTest() throws Exception {
+        service = CommandHelperFactory.getInstance().getService(CommandHelperFactory.COMMAND.INSERT.name());
+        insertionService = (TrieInsertionService) service;
+        insertionService.insert(100, "HelpShift_100");
+
+        service = CommandHelperFactory.getInstance().getService(CommandHelperFactory.COMMAND.RETRIEVE.name());
+
+        searchingService = (TrieSearchingService) service;
+
+        if(searchingService.search(100).equals("HelpShift_100")) {
+            insertionService.insert(100, "HelpShift_200");
+            assertTrue(searchingService.search(100).equals("HelpShift_200"));
+        }else
+            assertFalse(true);
+    }
 
 
     /**
@@ -59,7 +81,6 @@ public class AppTest
             assertTrue(e.getMessage().contains("Invalid inputs"));
         }
     }
-
 
 
     /**
@@ -123,7 +144,6 @@ public class AppTest
     }
 
 
-
     /**
      * We are testing & cross checking for an existing value of a key.
      */
@@ -145,7 +165,6 @@ public class AppTest
             assertFalse(true);
         }
     }
-
 
 
     /**
@@ -170,7 +189,6 @@ public class AppTest
             assertFalse(true);
         }
     }
-
 
 
     /**

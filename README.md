@@ -31,6 +31,9 @@ mvn exec:java -Dexec.mainClass="org.helpshift.App"
 3. Select Command numbers from CLI.
 4. Output will be printed on CLI(STDOUT) itself.
 
+```
+or simply import project in IDE(Intelij/Eclipse) and run App.java class
+```
 ## How to run unit-test cases :
 1. Go to the base directory after extracting the zip file from Github.
 2. Execute below commands on CLI :
@@ -39,6 +42,8 @@ mvn clean
 mvn compile
 mvn test
 ```
-
+```
+or simply import the project with IDE and run test cases.
+```
 ## Future possible expansions:
-As we are using Integer value as key here but we can also use String as a key and we can have one flag in properties file which will like "useStringAsKey = true/false", due to which we wont have any length restrictions on key.
+As we are using Integer value as key here but we can also use String as a key and we can have one flag in properties file which will like "useStringAsKey = true/false", due to which we wont have any length restrictions on key also though its not mentioned now for 'deletion' of record or making DS clear, we can free up the pointers and have that implementation also.

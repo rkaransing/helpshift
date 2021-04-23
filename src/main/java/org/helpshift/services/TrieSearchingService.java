@@ -18,10 +18,12 @@ import org.helpshift.entities.TrieNode;
 public class TrieSearchingService implements TrieService {
 
     /**
+     * search method is used to get value stored in Trie against
+     * a particular key.
      *
      * @param key
      *
-     * @return This method returns String value stored for the particular key
+     * @return This method returns String value stored for the particular key and null if not found
      */
     public String search(Integer key){
         int level;

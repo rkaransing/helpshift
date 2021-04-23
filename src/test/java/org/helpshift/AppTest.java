@@ -40,7 +40,7 @@ public class AppTest
 
         printingService.printAllNodes(TrieRootNodeCacher.getInstance().getRootNode());
         System.out.println("------------------------");
-        //Few more nodes from
+        //Few more nodes from retrieve method are getting added so verifying the count of 11 here
         assertTrue( TriePrintingService.counter == 11);
     }
 

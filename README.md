@@ -26,7 +26,7 @@ random, and non-unique. Data structure should provide the following functionalit
 ```
 mvn clean
 mvn compile
-mvn exec:java -Dexec.mainClass="org.helpshift.App"
+mvn exec:java -Dexec.mainClass="org.karansing.trie.App"
 ```
 3. Select Command numbers from CLI.
 4. Output will be printed on CLI(STDOUT) itself.

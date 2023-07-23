@@ -1,11 +1,11 @@
-package org.helpshift;
+package org.karansing.trie;
 
-import org.helpshift.cacher.TrieRootNodeCacher;
-import org.helpshift.commands.CommandHelperFactory;
-import org.helpshift.services.TrieInsertionService;
-import org.helpshift.services.TriePrintingService;
-import org.helpshift.services.TrieSearchingService;
-import org.helpshift.services.TrieService;
+import org.karansing.trie.cacher.TrieRootNodeCacher;
+import org.karansing.trie.commands.CommandHelperFactory;
+import org.karansing.trie.services.TrieInsertionService;
+import org.karansing.trie.services.TriePrintingService;
+import org.karansing.trie.services.TrieSearchingService;
+import org.karansing.trie.services.TrieService;
 
 import java.util.Scanner;
 

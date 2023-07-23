@@ -1,8 +1,8 @@
-package org.helpshift.services;
+package org.karansing.trie.services;
 
 import org.apache.commons.lang3.StringUtils;
-import org.helpshift.cacher.TrieRootNodeCacher;
-import org.helpshift.entities.TrieNode;
+import org.karansing.trie.cacher.TrieRootNodeCacher;
+import org.karansing.trie.entities.TrieNode;
 
 /**
  * The TrieInsertionService helps  to insert a new node(TrieNode)

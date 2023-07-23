@@ -1,4 +1,4 @@
-package org.helpshift.entities;
+package org.karansing.trie.entities;
 
 import org.apache.commons.lang3.StringUtils;
 

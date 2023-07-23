@@ -1,6 +1,6 @@
-package org.helpshift.cacher;
+package org.karansing.trie.cacher;
 
-import org.helpshift.entities.TrieNode;
+import org.karansing.trie.entities.TrieNode;
 
 /**
  * TrieRootNodeCacher helps us to maintain, tracking

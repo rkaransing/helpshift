@@ -1,9 +1,9 @@
-package org.helpshift.commands;
+package org.karansing.trie.commands;
 
-import org.helpshift.services.TrieInsertionService;
-import org.helpshift.services.TriePrintingService;
-import org.helpshift.services.TrieSearchingService;
-import org.helpshift.services.TrieService;
+import org.karansing.trie.services.TrieInsertionService;
+import org.karansing.trie.services.TriePrintingService;
+import org.karansing.trie.services.TrieSearchingService;
+import org.karansing.trie.services.TrieService;
 
 /**
  * CommandHelperFactory helps us to decide what is the

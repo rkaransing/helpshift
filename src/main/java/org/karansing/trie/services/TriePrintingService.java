@@ -1,6 +1,6 @@
-package org.helpshift.services;
+package org.karansing.trie.services;
 
-import org.helpshift.entities.TrieNode;
+import org.karansing.trie.entities.TrieNode;
 
 /**
  * The TriePrintingService helps to print all the keys along with its values

@@ -1,4 +1,4 @@
-# README for Data Structure implementation of helpshift.
+# README for Data Structure implementation.
 
 ## Problem statement : 
 Design a data structure that can store key-value pairs. Keys are unique, and are used to identify values which may be
